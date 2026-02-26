@@ -4,7 +4,15 @@ using System.Text;
 
 namespace Realm_Engine.Models
 {
-    internal class Archer
+    class Archer : Character
     {
+        public Archer(string name)
+        {
+            Name = name;
+        }
+        public override void Attack()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

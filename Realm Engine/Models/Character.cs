@@ -9,6 +9,12 @@ namespace Realm_Engine.Models
     {
         private string _name;
         private int _hp;
+        private int _level = 0;
+
+        public int Level{
+            get { return _level; }
+            set { }
+        }
         public string Name
         {
             get { return _name; }
