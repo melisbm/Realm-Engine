@@ -9,7 +9,10 @@ public class Program
         Console.WriteLine(myWarrior.Name);
         Console.WriteLine(myWarrior.Hp);
 
-        Player player = new Player("Jake");
+        Player player = new Player("Jake", 100);
         Console.WriteLine(player.Name);
+
+        myWarrior.Attack(player);
+        Console.WriteLine(player.Hp);
     }
 }

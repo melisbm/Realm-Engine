@@ -13,9 +13,10 @@ namespace Realm_Engine
 
         public int Hp { get; set; }
 
-        public Player(string name)
+        public Player(string name, int hp)
         {
             Name = name;
+            Hp = hp;
         }
 
     }

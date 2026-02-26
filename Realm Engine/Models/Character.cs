@@ -55,7 +55,7 @@ namespace Realm_Engine.Models
             }
         }
 
-        public abstract void Attack();
+        public abstract void Attack(Player player);
 
     }
 }

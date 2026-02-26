@@ -10,9 +10,9 @@ namespace Realm_Engine.Models
         {
             Name = name;
         }
-        public override void Attack()
+        public override void Attack(Player player)
         {
-            Console.WriteLine(Name + " attacks");
+            player.Hp -= 10;
         }
     }
 }
