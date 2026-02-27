@@ -14,5 +14,5 @@ public class Program
 
         myWarrior.Attack(player);
         Console.WriteLine(player.Hp);
-    }
+    }   
 }
